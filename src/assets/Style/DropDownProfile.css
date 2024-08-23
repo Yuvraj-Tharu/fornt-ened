@@ -1,0 +1,22 @@
+.DropDownProfile {
+  position: absolute;
+  top: 80px;
+  right: 155px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.DropDownProfile::before {
+  content: "";
+  position: absolute;
+  top: -0.8rem;
+  right: 1.1rem;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+}
